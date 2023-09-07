@@ -1,0 +1,69 @@
+@media (min-width: 768px) {
+  /*LOGO N*/
+
+  .img_N {
+    height: 6rem;
+  }
+
+  /*AVATAR*/
+
+  .img_avatar img {
+    height: 5rem;
+  }
+
+  /*LUPA*/
+
+  .container-lupita i {
+    font-size: 4rem;
+  }
+
+  .font--botones__nav button {
+    font-size: 2rem;
+    padding: 0.7rem;
+    margin: 2rem;
+  }
+
+  /*MAIN*/
+
+  /*Card principal*/
+
+  .card--principal {
+    height: 60rem;
+  }
+
+  .card--principal img {
+    object-fit: cover;
+  }
+
+  /*botones card principal*/
+
+  .btn--portada__estilos {
+    font-size: 2rem;
+  }
+
+  /*Textos y botones*/
+
+  .card-img-overlay {
+    margin-top: 48rem;
+  }
+
+  .card-title {
+    font-size: 2rem;
+  }
+
+  .titulos--secciones {
+    font-size: 2.5rem;
+  }
+
+  /*Carousel portadas*/
+
+  .container--img__secciones {
+    height: 30rem;
+  }
+
+  /*nav footer*/
+  .container--favicon__footer {
+    height: 8rem;
+    font-size: 3rem;
+  }
+}

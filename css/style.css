@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+/*GENERAL*/
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--fondo_gral);
+}
+
+header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*LOGO N*/
+
+.img_N {
+  height: 4rem;
+}
+
+/*AVATAR*/
+
+.img_avatar img {
+  height: 2.5rem;
+}
+
+/*LUPA*/
+
+.lupita {
+  color: var(--blanco);
+}
+
+/*NAV*/
+
+/*botones*/
+
+.btn_nav {
+  border-radius: 2rem;
+  border-color: var(--blanco);
+  color: var(--blanco);
+  font-size: 1.2rem;
+}
+
+/*MAIN*/
+
+/*Card principal*/
+
+.card--principal {
+  height: 50rem;
+  border-radius: 1.5rem;
+  border-color: var(--blanco);
+  box-shadow: 5px 5px 15px 1px #ffffff4d;
+}
+
+.card--principal img {
+  height: 100%;
+  border-radius: 1.5rem;
+}
+
+/*botones card principal*/
+
+.btn--portada__estilos {
+  font-size: 1.8rem;
+  width: 15rem;
+  margin: 0.5rem;
+}
+
+/*Textos y botones*/
+
+.card-img-overlay {
+  margin-top: 38.5rem;
+}
+
+.card-title {
+  font-size: 1.8rem;
+}
+
+.titulos--secciones {
+  color: var(--blanco);
+  font-size: 1.8rem;
+}
+
+/*Carousel portadas*/
+
+.container--img__secciones {
+  height: 15rem;
+}
+
+.container--img__secciones img {
+  height: 100%;
+}
+
+/*nav footer*/
+.nav-footer {
+  color: var(--blanco);
+}
+
+.container--favicon__footer {
+  align-items: center;
+  height: 5rem;
+  font-size: 2rem;
+  background-color: var(--fondo_gral);
+}
